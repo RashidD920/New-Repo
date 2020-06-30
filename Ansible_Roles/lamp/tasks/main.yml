@@ -1,0 +1,4 @@
+---
+- include_tasks: httpd.yml
+- include_tasks: php.yml
+# tasks file for lamp

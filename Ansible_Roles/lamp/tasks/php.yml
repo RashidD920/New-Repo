@@ -1,0 +1,10 @@
+---
+- name: install php
+  yum:
+    name: php
+    state: latest
+- name: copy phpinfo file
+  copy:
+    src: phpinfo.php
+    dest: /test/
+  notify: restart apache server

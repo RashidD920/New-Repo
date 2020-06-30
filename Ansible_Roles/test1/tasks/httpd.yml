@@ -1,0 +1,9 @@
+---
+- name: httpdInstallation
+  yum
+    name: httpd
+    state: latest
+- name: Start_apache
+  service:
+    name: httpd
+    state: started
