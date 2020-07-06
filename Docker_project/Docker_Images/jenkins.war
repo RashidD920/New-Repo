@@ -1,0 +1,6 @@
+--2020-07-04 04:20:31--  https://updates.je/
+Resolving updates.je (updates.je)... failed: Name or service not known.
+wget: unable to resolve host address ‘updates.je’
+--2020-07-04 04:20:33--  http://nkins-ci.org/download/war/2.243/jenkins.war
+Resolving nkins-ci.org (nkins-ci.org)... failed: Name or service not known.
+wget: unable to resolve host address ‘nkins-ci.org’
